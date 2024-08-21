@@ -1,0 +1,7 @@
+packages:
+  - 'demo00-basic'
+  - 'demo01-es6'
+  - 'demo02-algorithm'
+  - 'demo03-pattern'
+  - 'demo04-css'
+  - 'demo05-jwt'
