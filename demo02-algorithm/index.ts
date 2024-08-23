@@ -48,7 +48,7 @@ const count_a_to_b_by_simulation = (m, n) => {
   while (true) {
     let { choosed_position } = a_point.choose_position();
     if (!choosed_position) {
-      // 满足所有点都经过(total_step)) && 满足最后一个点刚好等于 b点
+      // 满足所有点都经过(total_step)) && 满足最后一个点刚好等于 b 点
       if (a_point.step === axis.total_step && a_point.position.toString() === a_point.destination.toString()) {
         count = count + 1;
       }

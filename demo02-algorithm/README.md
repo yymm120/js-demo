@@ -1,4 +1,8 @@
 > 因为面视, 需要临时抱佛脚快速浏览一遍数据结构的基础。
+> 一些参考
+> https://q.shanyue.tech/fe
+> https://data-structure-and-algorithm.xpoet.cn/algorithm/sort.html
+> https://vue3js.cn/interview/
 
 ## 数据结构和算法
 
