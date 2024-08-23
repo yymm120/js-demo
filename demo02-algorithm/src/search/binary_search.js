@@ -1,19 +1,3 @@
-// function binary_search(arr, target) {
-//   if (arr.length < 1) return -1;
-//   let low_index = 0;
-//   let high_index = arr.length - 1;
-//   while (low_index <= high_index) {
-//     const mid_index = Math.floor((low_index + high_index) / 2);
-//     if (target < arr[mid_index]) {
-//       high_index = mid_index;
-//     } else if (target > arr[mid_index]) {
-//       low_index = mid_index + 1;
-//     } else {
-//       return mid_index;
-//     }
-//   }
-//   return -1;
-// }
 
 function sequential_search(arr, target) {
   for (let i = 0; i < arr.length; i++) {
@@ -41,11 +25,7 @@ function binary_search(arr, target) {
   return -1;
 }
 
-/**
- * O(n^2)
- * @param {*} arr
- * @returns
- */
+
 function bubble_sort(arr) {
   if (!Array.isArray(arr) || arr.length <= 1) return arr;
   for (let i = 0; i < arr.length - 1; i++) {
@@ -82,14 +62,9 @@ function bubble_sort1(arr) {
     return arr;
 }
 
-console.log(bubble_sort([2, 1, 3, 5, 4, 0, 2, 8, 0, 2, 1, 6, 3, 7]));
+// console.log(bubble_sort([2, 1, 3, 5, 4, 0, 2, 8, 0, 2, 1, 6, 3, 7]));
 
 
-/**
- * 
- * @param {*} arr 
- * @returns 
- */
 function selection_sort(arr) {
     const {length } = arr;
     if (!Array.isArray(arr) || length <= 1) return arr;
@@ -107,3 +82,23 @@ function selection_sort(arr) {
 
 
 console.log(selection_sort([2, 1, 3, 5, 4, 0, 2, 8, 0, 2, 1, 6, 3, 7]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

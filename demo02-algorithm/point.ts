@@ -1,4 +1,3 @@
-// start
 export class Axis {
   m: number
   n: number

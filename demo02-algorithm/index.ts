@@ -1,4 +1,3 @@
-import { argv } from "process";
 import Point, { Axis } from "./point.js";
 
 /**
