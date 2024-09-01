@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
+		// =========== vim 配置 ===========
 		"vim.vimrc.enable": true,
 		"vim.vimrc.path": "c:\\cygwin64\\home\\.vimrc",
 		"vim.statusBarColorControl": true,
@@ -16,8 +17,14 @@
 			"<C-c>": true,
 		},
 		"vim.autoSwitchInputMethod.enable": true,
+
 		"vim.history": 16,
 		"vim.useSystemClipboard": true,
-		"vim.visualstar": true
+		"vim.visualstar": true,
+		// =========== 其他配置 ============
+		// 显式保存时, 去除未使用的import
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		},
 	}
 }

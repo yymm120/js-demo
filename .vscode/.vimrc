@@ -40,3 +40,6 @@ set linebreak       "防止单词内部折行
 set wrapmargin=5      "指定折行处与右边缘空格数
 set autoindent  	"打开自动缩进
 set wildmenu    	"vim命令自动补全
+
+noremap <C-k> 5k
+noremap <C-j> 5j
