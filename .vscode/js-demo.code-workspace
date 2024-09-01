@@ -16,7 +16,7 @@
 			"<C-c>": true,
 		},
 		"vim.autoSwitchInputMethod.enable": true,
-		"vim.history": 20,
+		"vim.history": 16,
 		"vim.useSystemClipboard": true,
 		"vim.visualstar": true
 	}
