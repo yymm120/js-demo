@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"vim.vimrc.enable": true,
+		"vim.vimrc.path": "c:\\cygwin64\\home\\.vimrc",
+		"vim.statusBarColorControl": true,
+		"vim.handleKeys": {
+			"<C-d>": false,
+			"<C-s>": false,
+			"<C-z>": false,
+			"<C-f>": false,
+			"<C-c>": true,
+		},
+		"vim.autoSwitchInputMethod.enable": true,
+		"vim.history": 20,
+		"vim.useSystemClipboard": true,
+		"vim.visualstar": true
+	}
+}
