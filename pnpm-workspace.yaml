@@ -5,3 +5,4 @@ packages:
   - 'demo03-pattern'
   - 'demo04-css'
   - 'demo05-jwt'
+  - 'demo09-web'

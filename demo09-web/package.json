@@ -1,0 +1,25 @@
+{
+    "name": "demo09-web",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c --bundleConfigAsCjs --watch",
+        "dev": "bun run --watch ./index.js",
+        "dev:web01": "bun run --watch web01-nav/server.js",
+        "dev:web02": "bun run --watch web02-haeder/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jsdom": "^25.0.1",
+        "parse5": "^7.2.1"
+    },
+    "devDependencies": {
+        "@types/bun": "^1.1.14",
+        "bun": "^1.1.38",
+        "walker-common": "link:walker-common"
+    }
+}

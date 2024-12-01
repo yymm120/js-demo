@@ -1,0 +1,24 @@
+[
+  {
+    "id": "001",
+    "icon": "img/icon1.svg",
+    "title": "日程"
+  },
+  {
+    "id": "002",
+    "icon": "img/icon2.svg",
+    "title": "周",
+    "subMenu": [
+      {
+        "id": "003",
+        "icon": "img/icon3.svg",
+        "title": "周一"
+      }
+    ]
+  },
+  {
+    "id": "004",
+    "icon": "img/icon4.svg",
+    "tilte": "月"
+  }
+]
