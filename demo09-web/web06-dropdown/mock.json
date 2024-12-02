@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0005",
+        "value": "0005"
+    },
+    {
+        "id": "0006",
+        "value": "0006"
+    },
+    {
+        "id": "group1",
+        "label": "first group",
+        "options": [
+            {
+                "id": "0001",
+                "value": "grouop1-0001"
+            },
+            {
+                "id": "0002",
+                "value": "group1-0002"
+            }
+        ]
+    },
+    {
+        "id": "group2",
+        "label": "second group",
+        "options": [
+            {
+                "id": "0003",
+                "value": "group2-0003"
+            },
+            {
+                "id": "0004",
+                "value": "group2-004"
+            }
+        ]
+    }
+]

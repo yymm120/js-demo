@@ -1,4 +1,4 @@
-import { Menu } from "./component/component.js";
+import { Menu } from "./component/menu.js";
 import data from "./mock/mock_header.json";
 
 const container = document.getElementById("container");
